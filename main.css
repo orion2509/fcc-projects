@@ -4,12 +4,74 @@
 
 body {
   font-family: 'Saira Extra Condensed', sans-serif;
-  background: blue;
+  background: black;
   color: white;
- 
+  text-align: left;
 }
 
 div {
-  background: red;
+  background: green;
+  padding-top: 
 }
 
+#img-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+}
+
+h3 {
+  display: block;
+  color:white;
+ 
+}
+
+#title {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-caption {
+  max-width: 45%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+#page-1-quote {
+ text-align: center;
+ margin-bottom: 0px;
+}
+
+#footer-style {
+  text-align: center;
+  color: green;
+}
+
+#tribute-info {
+  max-width: 50%;
+  font-family: Elvish;
+  text-align: left;
+  margin: auto;
+}
