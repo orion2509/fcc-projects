@@ -1,12 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Saira+Extra+Condensed');
 
+#container {
+
+         width:92%; /* The width is liquid by screen-percentage*/
+         height:80%; /* The height is liquid by screen-percentage*/
+         
+}
 
 body {
   font-family: 'Saira Extra Condensed', sans-serif;
   background: black;
+  display: block;
   color: white;
+  margin: auto;
   text-align: left;
+  align: center;
 }
 
 div {
@@ -16,8 +25,7 @@ div {
 
 #img-div {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto !important;
 }
 
 img {
