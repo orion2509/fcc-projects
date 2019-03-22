@@ -1,12 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Saira+Extra+Condensed');
 
-#container {
-
-         width:92%; /* The width is liquid by screen-percentage*/
-         height:80%; /* The height is liquid by screen-percentage*/
-         
-}
 
 body {
   font-family: 'Saira Extra Condensed', sans-serif;
@@ -20,12 +14,24 @@ body {
 
 div {
   background: green;
-  padding-top: 
+  padding-top: 10px;
+  margin-bottom:
+}
+
+.container {
+  background: gray;
+  padding-top: 150px;
+  padding-bottom: 145px;
 }
 
 #img-div {
-  display: block;
-  margin: 0 auto !important;
+  padding-top: -50px;
+  padding-bottom: 75px;
+  margin-top: -0px;
+}
+
+.black-bkg {
+  background: black;
 }
 
 img {
@@ -43,7 +49,7 @@ h1 {
 
 h2 {
   color: green;
-  text-align: center;
+  text-align: auto;
 }
 
 h3 {
@@ -52,10 +58,24 @@ h3 {
  
 }
 
-#title {
+.left-text {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 60px;
+  margin-top: -35px;
+}
 
+ul li {
+  padding: 7px 0px;
+}
+
+#title {
+  margin-bottom: -30px;
+  padding-bottom: -145px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 60px;
+  color: black;
 }
 
 #img-caption {
@@ -64,17 +84,22 @@ h3 {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -45px;
+  padding-bottom: -145px;
 }
-}
+
 
 #page-1-quote {
  text-align: center;
  margin-bottom: 0px;
+ padding-top:
 }
 
 #footer-style {
   text-align: center;
   color: green;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #tribute-info {
@@ -82,4 +107,16 @@ h3 {
   font-family: Elvish;
   text-align: left;
   margin: auto;
+}
+
+#center-headline {
+  padding-bottom: -10px;
+  padding-top: -150px;
+  text-align: center;
+  color: white;
+}
+
+.menu-background-area {
+  background: gray;
+  margin-bottom: -90px;
 }
