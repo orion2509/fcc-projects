@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Saira Extra Condensed', sans-serif;
-  background: black;
+  
   display: block;
   color: white;
   margin: auto;
@@ -13,18 +13,23 @@ body {
 }
 
 div {
+  height: auto;
+  display: block;
+  max-width: auto;
+  max-height: auto;
   background: green;
-  padding-top: 10px;
-  margin-bottom:
 }
 
 .container {
-  background: black;
-  padding-top: 150px;
-  padding-bottom: 145px;
+  background: white;
+  padding-top: 60px;
+  padding-bottom: 15px;
 }
 
 #img-div {
+  height: auto;
+  display: block;
+  max-width: auto;
   padding-top: -50px;
   padding-bottom: 75px;
   margin-top: -0px;
@@ -32,12 +37,16 @@ div {
 
 .black-bkg {
   background: black;
+  max-width: ;
+  max-height: auto;
+  padding-bottom: 25px;
 }
 
 img {
   max-width: 100%;
   display: block;
   height: auto;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -55,14 +64,20 @@ h2 {
 h3 {
   display: block;
   color:white;
+  font-size: 25px;
+  padding-top: -140px;
+  margin-top: -30px;
+
  
 }
 
 .left-text {
   text-align: center;
-  font-size: 25px;
+  font-size: 45px;
   padding-top: 60px;
+  padding-bottom: -40px;
   margin-top: -35px;
+  margin-bottom:-50px;
 }
 
 ul li {
@@ -72,6 +87,7 @@ ul li {
 #title {
   margin-bottom: -30px;
   padding-bottom: -145px;
+  padding-top: 45px;
   margin-left: auto;
   margin-right: auto;
   font-size: 60px;
@@ -80,26 +96,29 @@ ul li {
 
 #img-caption {
   max-width: 50%;
-  display: block;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -45px;
-  padding-bottom: -145px;
+  margin-bottom: auto;
+  padding-bottom: auto;
 }
 
-
 #page-1-quote {
+ font-size: 25px;
  text-align: center;
  margin-bottom: 0px;
- padding-top:
+ padding-top: 
+ padding-bottom: 20px;
+ padding-left:
 }
 
 #footer-style {
+  font-size: 40px;
   text-align: center;
   color: green;
   margin-top: 30px;
   margin-bottom: 30px;
+  background-color: white;
 }
 
 #tribute-info {
@@ -107,6 +126,8 @@ ul li {
   font-family: Elvish;
   text-align: left;
   margin: auto;
+  margin-top: 30px;
+  margin-bottom: -35px;
 }
 
 #center-headline {
@@ -120,3 +141,15 @@ ul li {
   background: black;
   margin-bottom: -90px;
 }
+
+hr {
+  height: auto;
+  display: block;
+  max-width: auto;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:green;
+  margin-top: 60px;
+  
+  }
