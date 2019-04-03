@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>The Nutrition Steward - Survey Form</title>
 </head>
 
 <body>
@@ -19,16 +19,72 @@
 
     
     <form id="survey-form">
-          <label for="name">
-            Name: <br><input type="text" required name="Name" id="name">
+     <div>
+           <label for="name" id="name-label"> 
+           *Name <input type="text" required name="Name" id="name" placeholder="Enter Your Name">
+           </label>
+     </div>
+     <div>
+          <label for="email" id="email-label">
+            *Email: <input type="email" required name="Name" id="email" placeholder="Enter Your Email">
           </label>
-          <br>
-          <label for="email">
-            Email: <br><input type="email" required name="Name" id="email">
+     </div>
+     <div>
+          <label for="number" id="number-label">
+            *Age: <input type="number" required name="Name" id="number" min="1" max="120" placeholder="Age">
           </label>
-      
-        </form>
+     </div>
+         
+       <div>
+         <p>Which Best Describes Your Health Goals:</p>
+           <select name="Health Goals" id="dropdown" >
+              <option value="Learn">Learn More About Holistic Healthcare</option>
+              <option value="Begin">Begin My Path To Holistic Living</option>
+              <option value="Weight">Lose Weight and Gain Energy</option>
+              <option value="Food">Make Better Food Choices</option>
+        </select>
+      </div>
+
+      <div>
+        <p>* Where are you in your quest for better living?</p>
+
+            <input type="radio" id="exploring" name="select-level" value="exploring">
+            <label for="exploring">Exploring Solutions</label>
+            </div>
+
+      <div>
+            <input type="radio" id="interested" name="select-level" value="interested">
+            <label for="interested">Highly Interested</label>
+      </div>
+
+      <div>
+        <p>* Are You Ready?</p>
+
+            <input type="checkbox" id="yes" name="ready" value="yes">
+            <label for="yes">Yes</label>
+            </div>
+
+      <div>
+            <input type="checkbox" id="no" name="ready" value="no">
+            <label for="no">No</label>
+      </div>
+
+      <div>
+            <input type="checkbox" id="maybe" name="ready" value="maybe">
+            <label for="maybe">Maybe</label>
+      </div>
+
+      <p>Additonal Comments:</p>
+            <textarea rows="5" cols="45"></textarea>
+<div>
+            <form action="bob@raisen.com">
+            <button type="submit" id="submit">Submit</button>
     
-    </div>
+          </div>
+
+     
+      
+    
+</form>
 </body>
 </html>
