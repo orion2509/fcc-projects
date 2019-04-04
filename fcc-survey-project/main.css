@@ -1,0 +1,22 @@
+body {
+    background-color: lightcyan;
+    font-size: 100%;
+  }
+  #title {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+    padding: 0.3em 0em 0.3em 0em;
+    margin: 0px;
+  }
+  
+  .container {
+    max-width: 10in;
+    font-size: 1em;
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    padding: 1em 1em 1em 1em;
+  }
