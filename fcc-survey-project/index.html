@@ -22,76 +22,82 @@
 
     <div class="container">       
     <p id="description">What are you health goals? Use the following survey to determine the best holitic health approach:</p>
+ 
 
      <form id="survey-form">
-     <div>
-           <label for="name" id="name-label"> 
-           *Name</label> <input type="text" required name="Name" id="name" placeholder="Enter Your Name">
-           
-     </div>
-     <div>
-          <label for="email" id="email-label">
-            *Email:</label> <input type="email" required name="Name" id="email" placeholder="Enter Your Email">
-          
-     </div>
-     <div>
-          <label for="number" id="number-label">
-            *Age:</label> <input type="number" required name="Name" id="number" min="1" max="120" placeholder="Age">
-          
-     </div>
+     <div id="name-field">
+           <label for="name" id="name-label">*Name</label> 
+           <input type="text" required name="Name" id="name" placeholder="Enter Your Name">
+     </div><br>
+
+     <div id="email-field">
+          <label for="email" id="email-label">*Email:</label> 
+          <input type="email" required name="Name" id="email" placeholder="Enter Your Email">
+     </div><br>
+
+     <div id="age">
+          <label for="number" id="number-label">*Age:</label> 
+          <input type="number" required name="Name" id="number" min="1" max="120" placeholder="Age">
+     </div><br>
          
-       <div>
-         <label for="heath-goals">*Which Best Describes Your Health Goals:</label>
-           <select name="Health Goals" id="dropdown">
+       <div id="dropdown">
+         <label for="path" id="path-label">*Which Best Describes Your Health Goals:</label>
+           <select id="path" name="health-goal" id="dropdown">
               <option value="Learn">Learn More About Holistic Healthcare</option>
               <option value="Begin">Begin My Path To Holistic Living</option>
               <option value="Weight">Lose Weight and Gain Energy</option>
               <option value="Food">Make Better Food Choices</option>
         </select>
+      </div><br>
+
+      <div id="radio-buttons">
+            
+        <label for= "radiolist" id="radiolist-label">* Where are you in your quest for better living?</label>
+
+           <div id="radiolist" style="text-align: left; padding: 4px 0px 0px 0px;">  
+            <p><label for="Exploring">
+            <input type="radio" id="Exploring" name="radio-buttons" value="Exploring">Exploring Solutions</label></p>
+        
+            <p><label for="Interested"></label>
+            <input type="radio" id="Interested" name="radio-buttons" value="Interested">Highly Interested</label></p>
+
+            <p><label for="Just-Looking">
+            <input type="radio" id="Just-Looking" name="radio-buttons" value="Just-Looking">Just Looking</label></p>
+          </div>
+
       </div>
 
-      <div>
-        <label for="goals">* Where are you in your quest for better living?</label>
+      <div id="checkboxes">
 
-            <input type="radio" id="exploring" name="select-level" value="exploring">
-            <label for="exploring">Exploring Solutions</label>
-            </div>
+        <label for="checklist" id="checklist-label">* Are You Ready?</label>
+      
+            <div id="checklist" style="text-align: left; padding: 4px 0px 0px 0px;" name="checkboxes">
 
-      <div>
-            <input type="radio" id="interested" name="select-level" value="interested">
-            <label for="interested">Highly Interested</label>
-      </div>
-
-      <div>
-        <p>* Are You Ready?</p>
-
-            <input type="checkbox" id="yes" name="ready" value="yes">
-            <label for="yes">Yes</label>
-            </div>
-
-      <div>
-            <input type="checkbox" id="no" name="ready" value="no">
+            <label for="yes">Yes</label>  
+            <input type="checkbox" id="yes" name="journey-selection" value="yes">
+              
             <label for="no">No</label>
-      </div>
-
-      <div>
-            <input type="checkbox" id="maybe" name="ready" value="maybe">
+            <input type="checkbox" id="no" name="journey-selection" value="no">
+            
             <label for="maybe">Maybe</label>
+            <input type="checkbox" id="maybe" name="journey-selection" value="maybe">
+           </div><br>
+
       </div>
 
-      <p>Additonal Comments:</p>
-            <textarea rows="10" cols="75"></textarea>
-       <div>
-            <form action="bob@raisen.com">
-            <button type="submit" id="submit">Submit</button>
-    
-            </div>
-      
-     
-     
-      
-</div>  
-</form>
-</body>
+      <div id="textarea" style="margin-bottom: 32px">
+         
+           <label for="textarea" id="textarea-label">Additonal Comments:</label>
+           <textarea rows="10" cols="75" placeholder="Enter any addtional comments..."></textarea>
+           <form action="bob@raisen.com">  
+      </div>
 
+            <button type="submit" class="button" id="submit">Submit</button>
+   
+      </div>
+      
+     
+</div>  
+</body>
 </html>
+</form>
