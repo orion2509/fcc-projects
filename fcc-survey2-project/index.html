@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-       <div>  
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script><!-- Javascript Stylesheet Link Here -->
-        </div>
+    <title>Your Video Project</title>
+    <link rel="stylesheet" href="page-style.css">
 </head>
 
+
+<div>  
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script><!-- Javascript Stylesheet Link Here -->
+</div>
+
+<container>
 <body>
     <h1 id="title">Understanding Your Video Project</h1>
+</container>
+
+<container>
         <div>
-            <p id="description">To understsand what you are trying to accomplish with video, it's criritcal that we understand your budget. Not so we can base our pricing dependent to your investment lever, but to fit it within a production scenario that matches your budget range. </p>
+            <p id="description">To understsand what you are trying to accomplish with video, it's criritcal that we understand your budget. Not so we can base our pricing dependent to your investment lever, but to fit it within a production scenario that matches your budget range.</p>
 
      
     <form id="survey-form">
@@ -28,7 +37,40 @@
 
         <div>
             <label for="age" id="number-label">*Age</label>
-            <input type="number" required id="number" name="personal-info" placeholder="Age" min="1" max="120"></inut>
+            <input type="number" required id="number" name="personal-info" placeholder="Age" min="1" max="120"></label>
+        </div>
+
+        <div>
+            <label for="budget">What is your range of budget?</label>
+            <select id="dropdown">
+            <option value="$20,000">Budget Range is $20,000</option>
+            <option value="$30,000">Budget Range is $30,000</option>
+            <option value="$40,000">Budget Range is $40,000</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="video-type">What type of video do you need?</label>
+            <input type="radio" id="video-type" name="video-type" value="commerical-ad">Commercial Ad</label>
+            <input type="radio" id="video-type" name="video-type" value="web-video">Web Video</label>
+            <input type="radio" id="video-type" name="video-type" value="brand-video">Brand Video</label>
+        </div>
+
+        <div>
+            <label for="interest-level">What is you level of interest?</label>
+            <input type="checkbox" id="interest-level" name="interest-level" value="just-researching">Just Researching</label>
+            <input type="checkbox" id="interest-level" name="interest-level" value="highly-interested">Highly Interested</label>
+            <input type="checkbox" id="interest-level" name="interest-level" value="ready">Ready To Book</label>
+        </div>
+
+        <div>
+            <label for="text-area">Tell us more about your specific project.</label>
+            <textarea name="text-area" placeholder="Enter details here."></textarea>
+            <button type="submit" id="submit">Enter</button>
+            <form action="#"></form>
+        </div>
+
+       
         </div>
     </form>
       
@@ -40,4 +82,5 @@
 
 </div> 
 </body>
+</container>
 </html>

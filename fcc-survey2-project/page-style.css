@@ -1,0 +1,22 @@
+body {
+  background-color: aqua;
+  font-size: 100%;
+}
+
+#title {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    font-family: futura;
+    padding: 0.3em 0em 0.3em 0em;
+    margin: 0px;
+  }
+
+container {
+    
+    max-width: 50%;
+    text-align: center;
+    max-width: 10in;
+    margin: auto;
+    padding: 1em 1em 1em 1em;
+}
